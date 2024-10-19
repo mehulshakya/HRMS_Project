@@ -52,10 +52,11 @@ Alternatively, you can run the application directly from your IDE (e.g., Eclipse
    npm install
    npm install axios bootstrap react-router-dom
 
-Start the frontend server:
-
+2. Start the frontend server:
+```bash
 npm start
+
 Notes
 
-Ensure the backend is running before accessing the frontend.
-If you're facing any issues with the database or configuration, double-check the application.properties file and the MySQL setup in Workbench.
+Ensure that the backend is running before accessing the frontend.
+If you encounter any issues with the database or configuration, double-check the application.properties file and the MySQL setup in Workbench.
