@@ -1,4 +1,4 @@
-# Human Resources Management System
+# HRMS (Human Resources Management System)
 
 ## Prerequisites
 
