@@ -18,7 +18,7 @@ Before starting, ensure you have the following installed on your system:
 git clone {repo-url}
 cd {repo-folder}
 
-2. Build the Project
+### 2. Build the Project
 To build the project, open the terminal and run:
 
 mvn clean install
