@@ -55,7 +55,7 @@ Alternatively, you can run the application directly from your IDE (e.g., Eclipse
 2. Start the frontend server:
   ```bash
   npm start
-
+```
 Notes
 
 Ensure that the backend is running before accessing the frontend.
