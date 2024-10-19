@@ -53,7 +53,7 @@ cd {repo-folder}
 To build the project, open the terminal and run:
 
 mvn clean install
-3. Run the Application
+### 3. Run the Application
 To run the Spring Boot application:
 
 mvn spring-boot:run
