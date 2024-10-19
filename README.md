@@ -53,8 +53,8 @@ Alternatively, you can run the application directly from your IDE (e.g., Eclipse
    npm install axios bootstrap react-router-dom
 
 2. Start the frontend server:
-```bash
-npm start
+  ```bash
+  npm start
 
 Notes
 
