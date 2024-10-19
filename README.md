@@ -28,20 +28,30 @@ To run the Spring Boot application:
 mvn spring-boot:run
 Alternatively, you can run the application directly from your IDE (e.g., Eclipse/IntelliJ) as a Java application.
 
-Usage
+## Usage
 
-Access the Application
-Frontend: Open your browser and go to http://localhost:3000 to access the application (after setting up both the backend and frontend).
-Backend: The backend will be running at http://localhost:8082. Use Postman to test the API endpoints. Make sure to add data to your database before testing. You can refer to the controller classes to understand how to populate the tables.
-Database Setup
-Open MySQL Workbench and create the necessary database.
-Ensure your MySQL credentials (username and password) are correctly configured in the application.properties file in your Java project (in Eclipse/IntelliJ).
+### Access the Application
 
-Frontend Setup
-Install the required Node.js packages by running the following commands:
+- **Frontend**: 
+  - Open your browser and go to `http://localhost:3000` to access the application (after setting up both the backend and frontend).
+  
+- **Backend**: 
+  - The backend will be running at `http://localhost:8082`.
+  - Use **Postman** to test the API endpoints. 
+  - Ensure that data is added to the database before testing. You can refer to the controller classes for instructions on populating the tables.
 
-npm install
-npm install axios bootstrap react-router-dom
+### Database Setup
+
+1. Open **MySQL Workbench** and create the necessary database.
+2. Ensure your MySQL credentials (username and password) are correctly configured in the `application.properties` file in your Java project (in Eclipse/IntelliJ).
+
+### Frontend Setup
+
+1. Install the required Node.js packages by running the following commands:
+   ```bash
+   npm install
+   npm install axios bootstrap react-router-dom
+
 Start the frontend server:
 
 npm start
