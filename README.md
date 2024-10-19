@@ -1,34 +1,50 @@
-Prerequisites
-Java JDK: Ensure you have JDK installed.Download any LTS support(For this project I have used java 21).
-Maven: Ensure Maven is installed for building the project.
-Vs Code
-Mysql(Workbench)
-Node.js
-Postman
+#Human Resources Management System
 
-# Steps
-Clone the Repository
-cd {repo-url}
-Build the Project(for terminal)
+#Prerequisites
 
+Before starting, ensure you have the following installed on your system:
+
+Java JDK: Install the latest LTS version of JDK (For this project, Java 21 is used).
+Maven: Ensure Maven is installed to build the project.
+VS Code: For frontend development.
+MySQL Workbench: To manage your database.
+Node.js: Required for running the frontend.
+Postman: For testing API endpoints.
+
+Setup Instructions
+
+1. Clone the Repository
+git clone {repo-url}
+cd {repo-folder}
+
+3. Build the Project
+To build the project, open the terminal and run:
 mvn clean install
-Run the Application
 
+3. Run the Application
+To run the Spring Boot application:
 mvn spring-boot:run
-Alternatively, you can run it from your IDE (e.g., Eclipse/Intellij) as a Java application.
+Alternatively, you can run the application directly from your IDE (e.g., Eclipse/IntelliJ) as a Java application.
 
-Usage:
+#Usage
 
-Access the Application: Open your web browser and navigate to http://localhost:3000 after setting up your project code on both backend(Eclipse/Intellij) and frontend(Vs Code).
+Access the Application
+Frontend: Open your browser and go to http://localhost:3000 to access the application (after setting up both the backend and frontend).
+Backend:
+The backend will be running at http://localhost:8082.
+Use Postman to test the API endpoints. Make sure to add data to your database before testing. You can refer to the controller classes to understand how to populate the tables.
+Database Setup
+Open MySQL Workbench and create the necessary database.
+Ensure your MySQL credentials (username and password) are correctly configured in the application.properties file in your Java project (in Eclipse/IntelliJ).
+Frontend Setup
+Install the required Node.js packages by running the following commands:
 
-# Check every endpoint at localhost:8082 using postman ,it should fetch the data.But first you have to add data into the tables.Refer the controller classes for the same.
-
-For database-
-setup the Mysql Workbench
-create database and make ensure the username and password are correctly configured in application.properties file of your java appication(Eclipse/Intellij).
-
-For frontend-
-install node.js
-use npm i
-npm i axios(install other necessary packages also like bootstrap,react-router-dom).
+npm install
+npm install axios bootstrap react-router-dom
+Start the frontend server:
 npm start
+
+#Notes
+
+Ensure the backend is running before accessing the frontend.
+If you're facing any issues with the database or configuration, double-check the application.properties file and the MySQL setup in Workbench.
